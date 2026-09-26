@@ -1,0 +1,16 @@
+Routing Conventions:
+1. All routes must live inside the app folder
+2. Route files must be named either page.js or page.tsx
+3.each folder represents a segment of the URL path
+
+when the conventions are followed, the file automatically becomes availabe as a route
+
+File based routing::
+
+Scenario 1:
+we want to create a home page that shows up when someone visits our site at loclahost:3000 
+
+Scenario 2:
+we need to create Two additional routes
+1. for about
+2. for profile
