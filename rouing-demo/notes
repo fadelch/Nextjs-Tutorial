@@ -15,7 +15,14 @@ we need to create Two additional routes
 1. for about
 2. for profile
 
+Nested Routes
+-----------
 Scenario 3:
 we need to set up that shows up when useres visits loclahost3000/blog we will also need to handle two additional routes
 3.1 loclahost:3000/blog/first
 3.2 loclahost:3000/blog/secound
+
+
+Dynamic Routes:
+--------------
+Scenario 4:
