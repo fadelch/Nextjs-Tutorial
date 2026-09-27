@@ -41,5 +41,7 @@ you want to show details at /products/1 but you also need to display the first r
 ## Catch-all Segments:
 
 scenario 6:
-imagine we're buillding a documentation site for our project
+imagine we're buillding a documentation site for our project this site has a multiple features and each feature contains several Consepts that need documentation picture a side navigation with the five features where the first features expands to show five different concepts the goal is to create a unique routes for each concept under its respective features think about URLs like loclahost:3000/Feature1/concept1
 ![alt text](image.png)
+
+## Not-Found-Page:
