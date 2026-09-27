@@ -1,3 +1,5 @@
+import { notFound } from "next/dist/client/components/navigation";
+
 export default async function ProductDetails({
   params,
 }: {
@@ -5,6 +7,9 @@ export default async function ProductDetails({
 }) {
   const { id } = await params;
   const { reviewid } = await params;
+  if (parseInt(reviewid) > 1000) {
+    notFound();
+  }
   return (
     <>
       <h1>
