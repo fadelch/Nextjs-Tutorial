@@ -45,3 +45,10 @@ imagine we're buillding a documentation site for our project this site has a mul
 ![alt text](image.png)
 
 ## Not-Found-Page:
+
+when you visit a route that doesn't exist in your app folder you will see a basic 404 pages
+
+## File Colocation:
+
+each folder represents a route segment that maps to a URL path but here is the important part a route only becomes publicly accessible when you add a page.js or page.tsx file
+to it
