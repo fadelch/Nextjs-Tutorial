@@ -37,3 +37,9 @@ navigating to loclahost:3000/products/1 should display details about the first p
 
 Scenario 5:
 you want to show details at /products/1 but you also need to display the first review for the product at /products/1/reviews/1
+
+## Catch-all Segments:
+
+scenario 6:
+imagine we're buillding a documentation site for our project
+![alt text](image.png)
