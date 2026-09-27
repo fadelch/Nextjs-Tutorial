@@ -52,3 +52,11 @@ when you visit a route that doesn't exist in your app folder you will see a basi
 
 each folder represents a route segment that maps to a URL path but here is the important part a route only becomes publicly accessible when you add a page.js or page.tsx file
 to it
+
+## Private folders:
+
+Private folders are super useful for a bunch of things:
+1-Keep your UI logc seperate from routing logic
+2-Having a consistent way to organize internal files in your project
+3-Making it easier to group related files in your code editor
+4-Avoiding potential naming conflicts with future Next.js file naming conventions
